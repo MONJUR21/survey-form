@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project no.1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="my-class">
+      <header>
+        <h1 id="title">My first project</h1>
+        <p id="description">HTML & CSS project</p>
+      </header>
+      <form id="survey-form">
+        <div class="form-box">
+          <label for="name" id="name-label">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" class="in" required />
+        </div>
+        <div class="form-box">
+          <label for="email" id="email-label">Email:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            class="in"
+            required
+          />
+        </div>
+        <div class="form-box">
+          <label for="number" id="number-label">Age:</label>
+          <input
+            type="number"
+            id="number"
+            min="8"
+            max="50"
+            placeholder="Enter your age"
+            class="in"
+          />
+        </div>
+        <div class="form-box">
+            <p>Which option you choose?</p>
+          <select id="dropdown">
+            <option>Student</option>
+            <option>Web developer</option>
+          </select>
+        </div>
+        <div class="box">
+            <span>Your profession?</span>
+          <label for="id1"><input type="radio" value="yes" name="my-wish" id="id1" />Yes</label>
+          <label for="id2"><input type="radio" value="no" name="my-wish" id="id2" />No</label>
+        </div>
+        <div class="form-box">
+            <p>Which option you won't choose?</p>
+          <select id="dropdown">
+            <option>Student</option>
+            <option>Web developer</option>
+          </select>
+        </div>
+        <div class="box">
+            <span>Your name?</span>
+            <label for=""><input type="checkbox" value="project1" class="box1"/>Monjur</label>
+            <label for=""><input type="checkbox" value="project2" class="box1"/>Rahaman</label>
+          
+        </div class="form-box">
+        <div class="form-box">
+            <label for="">Any comments?</label>
+          <textarea cols="15" rows="5">Enter your comment...</textarea>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

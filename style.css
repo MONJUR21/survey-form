@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=pexels-pixabay-206359.jpg&fm=jpg");
+}
+header p{
+    font-style: italic;
+    font-size: 20px;
+}
+.my-class{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    margin: 30px;
+}
+#survey-form{
+    padding: 30px;
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.587);
+    width: 50vw;
+    font-size: 20px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    margin-bottom: 15px;
+}
+label{
+    margin: 6px 0px;
+}
+p{
+    padding: 5px 0px;
+    margin-bottom: 6px;
+}
+span{margin-bottom: 6px;}
+input{
+    font-size: 16px;
+    /* height:26px; */
+}
+select{
+    height: 30px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+option{
+    font-size: 16px;
+}
+.box{
+   display: flex ;
+   flex-direction: column;
+   padding: 5px;
+   margin-bottom: 15px;
+}
+button{
+    font-size: 16px;
+    width: 50vw;
+    height: 35px;
+    background-color: green;
+    color: white;
+    margin-top: 15px;
+}
+textarea{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 6px;
+}
+.in{
+    height: 30px;
+}
